@@ -1,22 +1,11 @@
 import React from "react";
 import Flex, { Box } from "../reFlexing";
 import styled from "styled-components";
-import {
-  Button,
-  ButtonGroup,
-  Nav,
-  NavItem,
-  NavLink,
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from "reactstrap";
 import Navbar1 from "../Component/Navbar1";
+
+//import icon header
+import { Login, Tele, Location } from "../img";
+
 import "../styles.css";
 
 //Nom de laboratoire
@@ -66,6 +55,12 @@ const BoxHeader2 = styled.div`
   font-size: 20px;
 `;
 
+const TeleHide = styled.span`
+  @media (max-width: 960px) {
+    display: none;
+  }
+`;
+
 const Header = () => (
   <BoxPrincipale style={{ width: "100%" }}>
     <Flex style={{ width: "100%" }}>
@@ -74,11 +69,18 @@ const Header = () => (
           <LaboratoryName>Laboratoire Fes</LaboratoryName>
           <Box style={{ flex: "2", marginLeft: "100px" }}>
             <Flex row>
-              <LaboratoryTele>Tel : +212 521213244</LaboratoryTele>
+              <LaboratoryTele>
+                <Tele height="30" width="50" fill="red" />
+                <TeleHide> +212 521213244</TeleHide>
+              </LaboratoryTele>
               <LaboratoireAddress>
-                Adress : EL Atlass rue des far
+                <Location height="30" width="50" fill="red" /> EL Atlass rue des
+                far
               </LaboratoireAddress>
-              <LaboratoireConnecter>Se Connecter</LaboratoireConnecter>
+              <LaboratoireConnecter>
+                <Login height="30" width="50" />
+                Se Connecter
+              </LaboratoireConnecter>
             </Flex>
           </Box>
         </Flex>

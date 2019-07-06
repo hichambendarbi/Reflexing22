@@ -14,6 +14,10 @@ import {
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
+//import icon header
+import { Logo } from "../img";
+
+//Navigation Class
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -34,7 +38,9 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">LOGO</NavbarBrand>
+          <NavbarBrand href="/">
+            <Logo width="90px" height="100px" />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -63,8 +69,8 @@ export default class Example extends React.Component {
                   Nos Services
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Service1</DropdownItem>
-                  <DropdownItem>Service2</DropdownItem>
+                  <DropdownItem>Prendere un RDV</DropdownItem>
+                  <DropdownItem>Discuter en Ligne</DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>Service3</DropdownItem>
                 </DropdownMenu>
