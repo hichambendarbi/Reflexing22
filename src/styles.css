@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wideDiv a:hover {
+  color: #000;
+}
+@media screen and (max-width: 800px) {
+  #cn {
+    width: 50px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  margin-left: 10px;
+  font-size: 17px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #4fad36;
+  border-bottom: 2px solid red;
+  animation-duration: 2s;
+}
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-light .navbar-brand {
+  color: red;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+@media (min-width: 960px) {
+  .B1 .B2 {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #Tel {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #lab {
+    text-align: center;
+    width: 200px;
+  }
+}
