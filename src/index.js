@@ -30,7 +30,7 @@ import "./styles.css";
 
 function App() {
   return (
-    <Flex>
+    <Flex style={{ padding: "0", margin: "0px" }}>
       <Header />
       <Container />
       <Footer />

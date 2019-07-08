@@ -8,39 +8,6 @@ import { Login, Tele, Location } from "../img";
 
 import "../styles.css";
 
-//Nom de laboratoire
-const LaboratoryName = styled.div`
-  background-color: transparent;
-  height: 30px;
-  color: white;
-  flex: 1;
-  font-size: 20px;
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  font-weight: 900;
-`;
-
-//Tele de laboratoire
-const LaboratoryTele = styled.div`
-  background-color: transparent;
-  color: white;
-  flex: 1;
-`;
-
-//Adress de laboratoire
-const LaboratoireAddress = styled.div`
-  width: 40px;
-  color: white;
-  flex: 1;
-`;
-
-const LaboratoireConnecter = styled.div`
-  width: 40px;
-  color: white;
-  flex: 1;
-  justify-content: flex-end;
-  order: 2;
-`;
 const BoxPrincipale = styled.div`
   width: 100%;
 `;
@@ -49,10 +16,43 @@ const BoxHeader1 = styled.div`
   width: 100%;
   font-size: 15px;
   background-color: #4fad36;
+  height: 50px;
+  color: white;
+  font-weight: 900;
+  @media (max-width: 853px) {
+    height: 50px;
+    font-size: 10px;
+  }
+  @media (max-width: 660px) {
+    height: 50px;
+    font-size: 7px;
+  }
+  @media (max-width: 300px) {
+    height: 50px;
+    font-size: 10px;
+  }
+`;
+
+const Flex1 = styled.div`
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+`;
+const BoxNameLabo = styled.div`
+  margin-right: 60px;
+  @media (max-width: 300px) {
+    display: none;
+  }
 `;
 const BoxHeader2 = styled.div`
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
+  color: white;
 `;
 
 const TeleHide = styled.span`
@@ -64,26 +64,22 @@ const TeleHide = styled.span`
 const Header = () => (
   <BoxPrincipale style={{ width: "100%" }}>
     <Flex style={{ width: "100%" }}>
-      <BoxHeader1 className="B1">
-        <Flex className="B2" row style={{ width: "100%", marginLeft: "16px" }}>
-          <LaboratoryName>Laboratoire Fes</LaboratoryName>
-          <Box style={{ flex: "2", marginLeft: "100px" }}>
-            <Flex row>
-              <LaboratoryTele>
-                <Tele height="30" width="50" fill="red" />
-                <TeleHide> +212 521213244</TeleHide>
-              </LaboratoryTele>
-              <LaboratoireAddress>
-                <Location height="30" width="50" fill="red" /> EL Atlass rue des
-                far
-              </LaboratoireAddress>
-              <LaboratoireConnecter>
-                <Login height="30" width="50" />
-                Se Connecter
-              </LaboratoireConnecter>
-            </Flex>
+      <BoxHeader1>
+        <Flex1 row>
+          <BoxNameLabo>Laboratoire Fes</BoxNameLabo>
+          <Box>
+            <Tele height="25" width="40" fill="red" />
+            <TeleHide> +212 521213244</TeleHide>
           </Box>
-        </Flex>
+          <Box>
+            <Location height="25" width="40" fill="red" />
+            <TeleHide> +212 521213244</TeleHide>
+          </Box>
+          <Box>
+            <Login height="25" width="40" />
+            <TeleHide> +212 521213244</TeleHide>
+          </Box>
+        </Flex1>
       </BoxHeader1>
       <BoxHeader2>
         <Navbar1 />
