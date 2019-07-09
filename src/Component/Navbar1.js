@@ -39,7 +39,7 @@ export default class Example extends React.Component {
       <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/">
-            <Logo width="90px" height="100px" />
+            <Logo width="90px" height="60px" />
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
