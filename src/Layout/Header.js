@@ -36,7 +36,7 @@ const BoxHeader1 = styled.div`
 const Flex1 = styled.div`
   display: flex;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 11px;
   justify-content: center;
   justify-content: flex-start;
   justify-content: space-around;
@@ -44,7 +44,17 @@ const Flex1 = styled.div`
   align-content: space-between;
 `;
 const BoxNameLabo = styled.div`
-  margin-right: 60px;
+  margin-right: 350px;
+  @media (max-width: 1025px) {
+    margin-right: 100px;
+  }
+  @media (max-width: 560px) {
+    font-size: 15px;
+    margin-right: 30px;
+  }
+  @media (max-width: 400px) {
+    margin-right: 0px;
+  }
   @media (max-width: 300px) {
     display: none;
   }
