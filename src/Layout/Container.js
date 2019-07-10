@@ -1,15 +1,26 @@
 import React from "react";
 import Flex, { Box } from "../reFlexing";
 import styled from "styled-components";
+import CarouselPage from "../Component/car1";
+import Navbar1 from "../Component/Navbar1";
 import { UncontrolledCarousel, Carousel } from "reactstrap";
 import img1 from "../img-icons/L-examen-de-biologie-medicale.jpg";
 import img2 from "../img-icons/analyse-medicale-la-seyne-sur-mer-slide3.jpg";
 import img3 from "../img-icons/prise-sang-analyse-medicale.jpg";
 import img4 from "../img-icons/professionnels-sante-examen-medicale.jpg";
 
+const txt = styled.div`
+  width: 100%;
+  height: 20%;
+  background-color: red;
+`;
+
 const img = [
   {
-    src: img2
+    src: img2,
+    altText: "Slide 1",
+    caption: "Fes",
+    header: "Laboratoire Fes"
   }
 ];
 
@@ -19,9 +30,9 @@ const BoxPrincipaleContainer = styled.div`
 `;
 
 const Container = () => (
-  <BoxPrincipaleContainer>
+  <BoxPrincipaleContainer style={{ width: "100%" }}>
     <Flex style={{ width: "100%" }}>
-      <Carrousel />
+      <CarouselPage />
     </Flex>
   </BoxPrincipaleContainer>
 );
