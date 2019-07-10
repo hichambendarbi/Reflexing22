@@ -24,6 +24,19 @@
 .bg-light {
   background-color: white !important;
 }
+.cap {
+  margin-bottom: 150px;
+}
+@media screen and (max-width: 800px) {
+  .cap {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .cap {
+    margin-bottom: -35px;
+  }
+}
 .btnRdv {
   width: 200px;
   height: 45px;
@@ -34,16 +47,61 @@
   border: 2px solid #4caf50;
   border-radius: 5px;
 }
-.h3-responsive {
+
+.h {
   font-weight: 900;
-  font-size: 35px;
-  color: red;
+  font-size: 25px;
+  color: black;
+  height: 100px;
+  width: 200;
+  background-color: white;
+  padding-top: 15px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+  border-radius: 5px;
 }
-.h3-responsive1 {
+.hh {
   font-weight: 900;
   font-size: 40px;
-  color: whitesmoke;
+  color: green;
 }
+@media screen and (max-width: 800px) {
+  .h {
+    width: 130;
+    font-size: 8px;
+    color: black;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+    font-weight: 900;
+    height: 40px;
+    background-color: white;
+    padding-top: 12px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hh,
+  .h {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btnRdv {
+    width: 55px;
+    height: 12px;
+    font-size: 6px;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    color: red;
+    background-color: transparent;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    padding: 0px;
+  }
+}
+
 .w-100 {
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */

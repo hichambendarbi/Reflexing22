@@ -24,7 +24,7 @@ const CarouselPage = () => {
       >
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
-            <MDBView style={{ marginBottom: "250px" }}>
+            <MDBView>
               <img
                 className="d-block w-100"
                 src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2019/01/14/node_520646/39968856/public/2019/01/14/B9718178063Z.1_20190114110725_000%2BG31COC4S3.1-0.jpg?itok=jQw--YTl"
@@ -32,11 +32,11 @@ const CarouselPage = () => {
               />
               <MDBMask overlay="black-strong" />
             </MDBView>
-            <MDBCarouselCaption style={{ marginBottom: "250px" }}>
-              <h3 className="h3-responsive">
+            <MDBCarouselCaption className="cap">
+              <h3 className="h">
                 Laboratoire Fes, RECUEIL ET ANALYSE D'ÉCHANTILLONS BIOLOGIQUES
               </h3>
-              <p className="h3-responsive1">Second text</p>
+              <p className="hh">Laboratoire de biologie medicale</p>
               <button className="btnRdv">Rendez-vous</button>
             </MDBCarouselCaption>
           </MDBCarouselItem>
@@ -49,11 +49,11 @@ const CarouselPage = () => {
               />
               <MDBMask overlay="black-slight" />
             </MDBView>
-            <MDBCarouselCaption style={{ marginBottom: "250px" }}>
-              <h3 className="h3-responsive">
+            <MDBCarouselCaption className="cap">
+              <h3 className="h">
                 Laboratoire Fes, RECUEIL ET ANALYSE D'ÉCHANTILLONS BIOLOGIQUES
               </h3>
-              <p className="h3-responsive1">Third text</p>
+              <p className="hh">Laboratoire de biologie medicale</p>
               <button className="btnRdv">Rendez-vous</button>
             </MDBCarouselCaption>
           </MDBCarouselItem>
