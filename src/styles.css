@@ -101,6 +101,37 @@
     padding: 0px;
   }
 }
+.im01 {
+  height: 250px;
+  width: 400px;
+}
+.sp1 {
+  font-size: 22px;
+  font-weight: 900;
+  border-bottom: 2px solid red;
+  padding: 6px;
+  color: black;
+}
+@media screen and (max-width: 850px) {
+  .F1 {
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .im01 {
+    width: 300px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Descrip {
+    padding: 2px;
+  }
+}
 
 .w-100 {
   opacity: 0.5;
