@@ -33,7 +33,6 @@ function App() {
     <Flex style={{ padding: "0", margin: "0px" }}>
       <Header />
       <Container />
-      <Footer />
     </Flex>
   );
 }
