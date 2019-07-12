@@ -3,6 +3,7 @@ import Flex, { Box } from "../reFlexing";
 import styled from "styled-components";
 import CarouselPage from "../Component/car1";
 import SC1 from "../Component/car2";
+import SC2 from "../Component/car3";
 import Navbar1 from "../Component/Navbar1";
 import { UncontrolledCarousel, Carousel } from "reactstrap";
 import img1 from "../img-icons/L-examen-de-biologie-medicale.jpg";
@@ -28,6 +29,7 @@ const Container = () => (
   <BoxPrincipaleContainer style={{ width: "100%" }}>
     <CarouselPage />
     <SC1 />
+    <SC2 />
   </BoxPrincipaleContainer>
 );
 

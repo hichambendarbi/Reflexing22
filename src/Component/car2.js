@@ -63,7 +63,7 @@ const SC1 = () => {
         />
       </Box1>
       <Box2 className="Descrip">
-        <span className="sp1">Qui somme nous ?</span>
+        <span className="sp1">Qui Sommes-nous ?</span>
         <br />
         <br />
         Laboratoire d’analyses médicales, Laboratoire Fes est le leader parmis

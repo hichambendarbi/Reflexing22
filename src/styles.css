@@ -168,3 +168,16 @@
     width: 200px;
   }
 }
+/**/
+/* STYLING ESPACE PATIENTS, PROFESSIONNELS, EQUIPEMENT */
+.site-section {
+  padding: 3rem 0;
+}
+@media (max-width: 991.98px) {
+  .site-section {
+    padding: 4rem 0;
+  }
+}
+.text-primary {
+  color: #860707 !important;
+}
