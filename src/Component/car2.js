@@ -11,28 +11,6 @@ const Flex1 = styled.div`
   margin-top: 2px;
 `;
 
-const Box1 = styled.div`
-  font-size: 18px;
-  font-weight: 800;
-  color: gray;
-  background-color: #f7f7f7;
-  @media (max-width: 870px) {
-    order: 2;
-    position: absolute;
-    margin-top: 250px;
-  }
-  @media (max-width: 650px) {
-    order: 2;
-    position: absolute;
-    margin-top: 300px;
-  }
-
-  @media (max-width: 450px) {
-    order: 2;
-    position: absolute;
-    margin-top: 160px;
-  }
-`;
 const Box2 = styled.div`
   height: 250px;
   font-size: 18px;
@@ -44,26 +22,36 @@ const Box2 = styled.div`
     order: 1;
   }
   @media (max-width: 650px) {
-    height: 300px;
+    height: 350px;
   }
 
   @media (max-width: 450px) {
-    height: 150px;
+    height: 220px;
     font-size: 10px;
+    padding: 8rem 0;
+  }
+  @media (max-width: 411px) {
+    height: 200px;
+    font-size: 10px;
+    padding: 8rem 0;
+  }
+  @media (max-width: 375px) {
+    height: 230px;
+    font-size: 10px;
+    padding: 8rem 0;
+  }
+  @media (max-width: 320px) {
+    height: 230px;
+    font-size: 10px;
+    padding: 8rem 0;
   }
 `;
 
 const SC1 = () => {
   return (
     <Flex1 row className="F1">
-      <Box1>
-        <img
-          className="im01"
-          src="http://www.archi-defoort.fr/wp-content/uploads/2016/11/laboratoire_analyse_medical_10.jpg"
-        />
-      </Box1>
       <Box2 className="Descrip">
-        <span className="sp1">Qui Sommes-nous ?</span>
+        <span className="sp1">Pourquoi le laboratoire Fes ?</span>
         <br />
         <br />
         Laboratoire d’analyses médicales, Laboratoire Fes est le leader parmis

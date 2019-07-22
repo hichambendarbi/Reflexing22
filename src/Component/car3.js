@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Flex, { Box } from "../reFlexing";
 import "../styles.css";
 import { Materials, Patient, Personnels } from "../img";
+import { Button } from "reactstrap";
 
 const Flex1 = styled.div`
   width: 100%;
@@ -34,39 +35,54 @@ const Box2 = styled.div`
 
 const SC2 = () => {
   return (
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
+    <Box class="site-section">
+      <Box class="container">
+        <flex class="row">
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-blood d-block mb-3 display-3 text-secondary" />
             <Patient width="120px" height="70px" />
-            <h3 class="text-primary h4 mb-2">Espaces patients</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-              quis, nemo explicabo cupiditate verro fugiat sit eius sequi.
-            </p>
+            <h3 class="text-primary h4 mb-2">
+              <a href="#" className="ok">
+                PRÉPAREZ VOTRE
+                <br />
+                EXAMEN
+              </a>
+            </h3>
+            <p>Retrouvez tous nos conseils pour bien préparer votre examen</p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-blood d-block mb-3 display-3 text-secondary" />
             <Personnels width="120px" height="70px" />
-            <h3 class="text-primary h4 mb-2">Espace professionnels</h3>
+            <h3 class="text-primary h4 mb-2">
+              <a href="#" className="ok">
+                Vos documents utiles
+              </a>
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-              quis, nemo explicabo cupiditate vero fugiat sit eius sequi.
+              VOUS DEVEZ VOUS MUNIR : de l’ordonnance du médecin (datant de
+              moins d’un an)
+              <br />
+              de votre carte vitale ou de votre attestation de sécurité sociale
+              <br />
+              de l’attestation de votre mutuelle.
             </p>
           </div>
           <div class="col-md-6 col-lg-4 mb-4 text-center">
             <span class="flaticon-food d-block mb-3 display-3 text-secondary" />
             <Materials width="120px" height="70px" />
-            <h3 class="text-primary h4 mb-2">Equipements et materiels</h3>
+            <h3 class="text-primary h4 mb-2">
+              <a href="#" className="ok">
+                Equipements et materiels
+              </a>
+            </h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
               quis, nemo explicabo cupiditate vero fugiat sit eius sequi.
             </p>
           </div>
-        </div>
-      </div>
-    </div>
+        </flex>
+      </Box>
+    </Box>
   );
 };
 
