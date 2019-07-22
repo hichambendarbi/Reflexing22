@@ -11,7 +11,7 @@ import Container from "./Layout/Container";
  */
 import Home from "./Component/Home";
 
-/**
+/***
  App()=>{
 
   <flex>
@@ -33,6 +33,7 @@ function App() {
     <Flex style={{ padding: "0", margin: "0px" }}>
       <Header />
       <Container />
+      <Footer />
     </Flex>
   );
 }
