@@ -1,9 +1,9 @@
 import React from "react";
-import Flex, { Box } from "../reFlexing";
 import styled from "styled-components";
 import CarouselPage from "../Component/car1";
 import SC1 from "../Component/car2";
-import SC2 from "../Component/car3";
+import SC2 from "../Component/service";
+import S2 from "../Component/service2";
 import SC01 from "../Component/Contact";
 import Navbar1 from "../Component/Navbar1";
 import { UncontrolledCarousel, Carousel } from "reactstrap";
@@ -29,9 +29,9 @@ const BoxPrincipaleContainer = styled.div`
 const Container = () => (
   <BoxPrincipaleContainer style={{ width: "100%" }}>
     <CarouselPage />
-    <SC1 />
     <SC2 />
-    <SC01/>
+    <S2 />
+    <SC01 />
   </BoxPrincipaleContainer>
 );
 

@@ -10,6 +10,13 @@ import { ReactComponent as Facebook } from "./ico/facebook (1).svg";
 import { ReactComponent as Twitter } from "./ico/twitter.svg";
 import { ReactComponent as Youtube } from "./ico/youtube.svg";
 import { ReactComponent as Instagram } from "./ico/instagram.svg";
+import { ReactComponent as Equipment } from "./ico/equipment.svg";
+import { ReactComponent as Profesionnel } from "./ico/scientist (1).svg";
+import { ReactComponent as Resultat } from "./ico/f60833a9d2701f441ac80547ac77f15a.svg";
+import { ReactComponent as Connect } from "./ico/connect.svg";
+import { ReactComponent as RDV } from "./ico/appointment.svg";
+import { ReactComponent as PRD } from "./ico/blood-sample.svg";
+import { ReactComponent as Urgence } from "./ico/medical.svg";
 //import of icons
 export {
   Login,
@@ -22,5 +29,12 @@ export {
   Facebook,
   Youtube,
   Twitter,
-  Instagram
+  Instagram,
+  Equipment,
+  Profesionnel,
+  Resultat,
+  Connect,
+  RDV,
+  PRD,
+  Urgence
 };
