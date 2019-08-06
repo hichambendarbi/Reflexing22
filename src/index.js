@@ -9,7 +9,6 @@ import Container from "./Layout/Container";
 /**
  * Website Pages
  */
-import Home from "./Component/Home";
 
 /***
  App()=>{
