@@ -1,7 +1,7 @@
 import React from "react";
 import Flex, { Box } from "../reFlexing";
 import styled from "styled-components";
-import Navbar1 from "../Component/Navbar1";
+import Navbar1 from "../Component/Modules/Navbar1";
 
 //import icon header
 import { Login, Tele, Location } from "../img";

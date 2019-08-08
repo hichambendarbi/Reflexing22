@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import "../styles.css";
+import "../../styles.css";
 import {
   Collapse,
   Navbar,
@@ -15,7 +14,7 @@ import {
   DropdownItem
 } from "reactstrap";
 //import icon header
-import { Logo } from "../img";
+import { Logo } from "../../img";
 
 //Navigation Class
 
