@@ -1,6 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-import Flex, { Box } from "../reFlexing";
+
 import {
   MDBCarousel,
   MDBCarouselCaption,
