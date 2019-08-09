@@ -2313,7 +2313,7 @@ ul {
   height: 935px;
   position: relative;
   overflow: hidden;
-
+  background-image: url(../img/banner_bg.png);
   background-repeat: no-repeat;
   background-size: 43% 100%;
   background-position: top right;
@@ -2494,7 +2494,7 @@ ul {
   width: 35%;
   height: 67%;
   content: "";
-
+  background-image: url(../img/banner_img.png);
   background-size: 100% 100%;
   right: 9%;
 }
@@ -2515,7 +2515,7 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-
+    background-image: url(../img/banner_img.png);
     background-size: contain;
     right: 0;
     left: 0;
@@ -2533,7 +2533,7 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-
+    background-image: url(../img/banner_img.png);
     background-size: contain;
     right: 0;
     left: 0;
@@ -2551,7 +2551,7 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-
+    background-image: url(../img/banner_img.png);
     background-size: contain;
     right: 0;
     left: 0;
@@ -2568,7 +2568,7 @@ ul {
     max-width: 100%;
     max-height: 100%;
     content: "";
-
+    background-image: url(../img/banner_img.png);
     background-size: contain;
     right: 5%;
     bottom: 0;
@@ -2670,7 +2670,7 @@ ul {
   position: relative;
   z-index: 1;
   padding: 70px 0px 140px;
-
+  background-image: url(../img/about_overlay.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 33% 73%;
@@ -3100,7 +3100,7 @@ ul {
 /**************** review_part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_review.scss */
 .review_part {
-
+  background-image: url("../img/review_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3646,7 +3646,7 @@ ul {
 /**************** intro_video css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_intro_video_bg.scss */
 .intro_video_bg {
-
+  background-image: url("../img/intro_video_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5148,7 +5148,7 @@ h6 {
 
 /* line 798, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-
+  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5190,7 +5190,7 @@ h6 {
 
 /* line 835, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-
+  background: url(../img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5238,7 +5238,7 @@ h6 {
 
 /* line 876, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-
+  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5280,7 +5280,7 @@ h6 {
 
 /* line 913, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_elements.scss */
 .primary-radio input:checked + label {
-
+  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5322,7 +5322,7 @@ h6 {
 
 /* line 950, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_elements.scss */
 .confirm-radio input:checked + label {
-
+  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5370,7 +5370,7 @@ h6 {
 
 /* line 991, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_elements.scss */
 .disabled-radio input:checked + label {
-
+  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -6000,7 +6000,7 @@ h6 {
 
 /* line 1, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-
+  background-image: url("../img/breadcrumb.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

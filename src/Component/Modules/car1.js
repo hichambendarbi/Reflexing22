@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   MDBCarousel,
   MDBCarouselCaption,
@@ -9,7 +8,7 @@ import {
   MDBMask,
   MDBContainer
 } from "mdbreact";
-import "../styles.css";
+import "../../styles.css";
 
 const CarouselPage = () => {
   return (
