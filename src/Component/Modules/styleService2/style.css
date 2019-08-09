@@ -1,0 +1,311 @@
+.btn_2{
+    display: inline-block;
+  padding: 13.5px 0;
+  width: 160px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4FAD36;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  text-transform: capitalize;
+  border: 1px solid #e4e6ea;
+  border-radius: 2px;
+  font-family: "Playfair Display", serif;
+  margin-top: 35px;
+}
+/* line 48, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+.padding_top {
+  padding-top: 140px;
+}
+/* line 63, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+.padding_bottom {
+  padding-bottom: 140px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 63, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 63, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 63, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+  .padding_bottom {
+    padding-bottom: 70px;
+  }
+}
+
+/* line 78, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+
+
+/* line 87, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+h1, h2, h3, h4, h5, h6 {
+  color:black;
+  font-family: "Playfair Display", serif;
+}
+
+/* line 91, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+p {
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.929;
+  font-size: 14px;
+  margin-bottom: 0px;
+  color: #888888;
+}
+
+/* line 100, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+h2 {
+  font-size: 44px;
+  line-height: 28px;
+  color: #242429;
+  font-weight: 600;
+  line-height: 1.222;
+}
+
+@media (max-width: 576px) {
+  /* line 100, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+  h2 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 100, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+  h2 {
+    font-size: 24px;
+    line-height: 25px;
+  }
+}
+
+/* line 117, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+h3 {
+  font-size: 24px;
+  line-height: 25px;
+}
+
+@media (max-width: 576px) {
+  /* line 117, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+  h3 {
+    font-size: 20px;
+  }
+}
+
+/* line 126, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+h5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 131, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 57, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature_part {
+  padding: 42px 30px 37px;
+  border: 1px solid #e4e6ea;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  /* line 57, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part {
+    padding: 25px 10px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 57, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part {
+    padding: 30px 15px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 57, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part {
+    padding: 30px 25px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 57, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part {
+    margin-top: 25px;
+  }
+}
+
+/* line 82, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature_part span {
+  margin-bottom: 17px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #f0f4f6;
+  display: inline-block;
+  line-height: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 576px) {
+  /* line 82, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part span {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 82, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part span {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 82, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part span {
+    margin-bottom: 15px;
+  }
+}
+
+/* line 110, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature_part span i {
+  color: #0c2e60;
+  font-size: 24px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+/* line 115, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature_part span img {
+  width: 25px;
+}
+
+/* line 119, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature_part h4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 55px;
+  left: 110px;
+}
+
+@media (max-width: 576px) {
+  /* line 119, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part h4 {
+    margin-bottom: 15px;
+    top: 38px;
+    left: 85px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 119, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part h4 {
+    top: 41px;
+    left: 85px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 119, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature_part h4 {
+    margin-bottom: 15px;
+    top: 32px;
+    left: 96px;
+  }
+}
+
+/* line 148, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature_part p {
+  color: #7f7f7f;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+/* line 154, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 154, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 154, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .feature_part .single_feature {
+    margin-bottom: 0;
+  }
+}
+
+/* line 163, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature:hover .single_feature_part {
+  border: 1px solid #0065e1;
+  background-color: #0065e1;
+}
+
+/* line 167, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature:hover h4 {
+  color: #fff;
+}
+
+/* line 170, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature:hover p {
+  color: #fff;
+}
+
+/* line 173, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature:hover span {
+  background-color: #f2f6f8;
+}
+
+/* line 175, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.feature_part .single_feature:hover span i {
+  color: #fff;
+}
+
+/* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+.single_feature_part {
+  padding-top: 140px;
+}
+
+@media (max-width: 991px) {
+  /* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .single_feature_part {
+    padding-top: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 182, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
+  .single_feature_part {
+    padding-top: 55px;
+  }
+}

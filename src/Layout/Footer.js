@@ -13,15 +13,15 @@ const Footer = () => (
             </h2>
             <p>Description d'acredité.</p>
             <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-              <a href="/">
+              <a href="!#">
                 <Facebook height="50" width="80" fill="white" />
               </a>
 
-              <a href="/">
+              <a href="!#">
                 <Twitter height="50" width="80" fill="white" />
               </a>
 
-              <a href="/">
+              <a href="!#">
                 <Instagram height="50" width="80" fill="white" />
               </a>
             </ul>
@@ -32,19 +32,19 @@ const Footer = () => (
             <h2 className="ftco-heading-2">Patient</h2>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="py-1 d-block">
+                <a href="!#" className="py-1 d-block">
                   <span className="ion-ios-arrow-forward mr-3" />
                   Avoir resultat
                 </a>
               </li>
               <li>
-                <a href="#" className="py-1 d-block">
+                <a href="!#" className="py-1 d-block">
                   <span className="ion-ios-arrow-forward mr-3" />
                   Creér un compte
                 </a>
               </li>
               <li>
-                <a href="#" className="py-1 d-block">
+                <a href="!#" className="py-1 d-block">
                   <span className="ion-ios-arrow-forward mr-3" />
                   Se connecter
                 </a>
@@ -57,19 +57,19 @@ const Footer = () => (
             <h2 className="ftco-heading-2">Professionel</h2>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="py-1 d-block">
+                <a href="!#" className="py-1 d-block">
                   <span className="ion-ios-arrow-forward mr-3" />
                   Nos Professionels
                 </a>
               </li>
               <li>
-                <a href="#" className="py-1 d-block">
+                <a href="!#" className="py-1 d-block">
                   <span className="ion-ios-arrow-forward mr-3" />
                   Assistance
                 </a>
               </li>
               <li>
-                <a href="#" className="py-1 d-block">
+                <a href="!#" className="py-1 d-block">
                   <span className="ion-ios-arrow-forward mr-3" />
                   Assistance
                 </a>
@@ -85,7 +85,7 @@ const Footer = () => (
                 De lundi a dimanche: <span className="mb-3">09:00 a 16:00</span>
               </p>
               <p>
-                week-end Service: <span className="mb-3">xxxxxxxxxxxx</span>
+                Urgence Service : <span className="mb-3">+212 637-52-17-01</span>
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Footer = () => (
         <div className="col-md-12 text-center">
           <p>
             <i className="icon-heart color-danger" aria-hidden="true" /> <br />
-            <a href="https://societe.com" target="_blank">
+            <a href="!#">
               Conditions d'utulisations
               <br />
               Politique de confidentialité

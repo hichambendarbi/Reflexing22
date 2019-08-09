@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "../../reFlexing";
-import "../../styles2/style.css";
+import "./styleService2/style.css";
 import { RDV, PRD, Urgence } from "../../img";
 
 const Card = ({ icon, title, text }) => (

@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { Box } from "../../reFlexing";
-import "../../styles2/style.css";
+import "./styleService2/style.css";
 import { Resultat, Equipment, Profesionnel, Connect } from "../../img";
 
 const Box2 = styled.div`
   margin-top: -100px;
 `;
+
 
 const WhyUS = () => (
   <Box className="col-xl-4 col-md-4 align-self-center">

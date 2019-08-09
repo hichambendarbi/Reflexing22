@@ -85,11 +85,11 @@ const Header = () => (
           <BoxNameLabo>Laboratoire Fes</BoxNameLabo>
           <Box>
             <Tele height="25" width="40" fill="red" />
-            <TeleHide> +212 521213244</TeleHide>
+            <TeleHide> +212 535-73-20-00</TeleHide>
           </Box>
           <Box>
             <Location height="25" width="40" fill="red" />
-            <TeleHide> El Atlass rue des far Fes</TeleHide>
+            <TeleHide> Bd Biranzarane, lot 8, Res Nour,Bureau Nº11 Atlas-Fes</TeleHide>
           </Box>
           <Box>
             <Login height="25" width="40" />

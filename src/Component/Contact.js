@@ -77,7 +77,7 @@ const SC01 = () => {
                   <div>
                     <h3 class="mb-3">Numero telephone</h3>
                     <p>
-                      <a href="tel://00212535732000">+ 212 535 732 000</a>
+                      <a href="!#">+212 535-73-20-00</a>
                     </p>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const SC01 = () => {
                   <div>
                     <h3 class="mb-3">Address Email</h3>
                     <p>
-                      <a href="laboratoire@Fes.com">laboratoire@Fes.com</a>
+                      <a href="!#">Laboamfes@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const SC01 = () => {
                   <div>
                     <h3 class="mb-3">siteweb</h3>
                     <p>
-                      <a href="#">Labomd.ma</a>
+                      <a href="!#">Laboamfes.com</a>
                     </p>
                   </div>
                 </div>
