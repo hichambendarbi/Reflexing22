@@ -11,7 +11,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-icons": "3.7.0",
-    "react-router-dom": "5.0.1",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "^3.0.1",
     "reactstrap": "8.0.0",
     "styled-components": "4.3.2"
@@ -19,12 +19,12 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "8.0.5",
     "typescript": "3.3.3",
-    "webpack": "^4.39.1"
+    "webpack": "4.29.6"
   },
   "scripts": {
-    "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

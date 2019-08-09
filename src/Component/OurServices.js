@@ -1,7 +1,7 @@
 import React from "react"
 
-const Professional=()=>(
+const OurServices=()=>(
     <div>this a patient Section </div>
 )
 
-export default Professional;
+export default OurServices;
