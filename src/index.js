@@ -11,6 +11,8 @@ import Footer from "./Layout/Footer";
 import Home from "./Component/Home";
 import Patient from "./Component/Patient";
 import Professional from "./Component/Professional";
+import Contact from "./Component/Contact";
+
 
 /**
  * Website Pages
@@ -29,6 +31,7 @@ function App() {
       {/**to do add router to Professional section */}
       <Route path="Professional" component={Professional} />
       {/**to do add router to Services */}
+      <Route path="Contact" component={Contact} />
       <Footer />
     </Flex>
   );

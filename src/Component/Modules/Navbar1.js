@@ -46,7 +46,7 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink
                   id="Hom"
-                  href="/components/"
+                  href="/"
                   active="true"
                   style={{
                     color: "#4fad36",
@@ -57,25 +57,13 @@ export default class Example extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Professionels</NavLink>
+                <NavLink href="/Professional">Professionels</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="">Patients</NavLink>
-              </NavItem>
-
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Nos Services
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>Prendere un RDV</DropdownItem>
-                  <DropdownItem>Discuter en Ligne</DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>Service3</DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+                <NavLink href="/Patient">Patient</NavLink>
+              </NavItem>           
               <NavItem>
-                <NavLink href="">Contact</NavLink>
+                <NavLink href="/Contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

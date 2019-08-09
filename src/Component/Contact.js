@@ -1,17 +1,7 @@
 import React from "react";
-import styled from "styled-components";
-import Flex, { Box } from "../reFlexing";
 import "../styles.css";
 
-const Flex1 = styled.div`
-  width: 100%;
-  height: 250px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2px;
-`;
 
-const Box1 = styled.div``;
 const SC01 = () => {
   return (
     <section
@@ -87,7 +77,7 @@ const SC01 = () => {
                   <div>
                     <h3 class="mb-3">Numero telephone</h3>
                     <p>
-                      <a href="tel://1234567920">+ 212 5 21212221</a>
+                      <a href="tel://00212535732000">+ 212 535 732 000</a>
                     </p>
                   </div>
                 </div>
