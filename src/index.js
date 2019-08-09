@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Flex from "./reFlexing";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 //Import Website layout
 import Header from "./Layout/Header";
@@ -8,23 +9,11 @@ import Footer from "./Layout/Footer";
 
 //import website pages
 import Home from "./Component/Home";
+import Patient from "./Component/Patient";
+import Professional from "./Component/Professional";
+
 /**
  * Website Pages
- */
-
-/***
- App()=>{
-
-  <flex>
-
-    <Header/>
-    <Router href="Contact"   compnonet={Contact} />
-    <Footer/>
-  
-  <flex>
-
-
- }
  */
 
 import "./styles.css";
@@ -34,14 +23,16 @@ function App() {
     <Flex style={{ padding: "0", margin: "0px" }}>
       <Header />
       {/**to do add router to home */}
-      <Home />
+      <Route exact path="/" component={Home} />
       {/**to do add router to Patient section */}
+      <Route path="/Patient" component={Patient} />
       {/**to do add router to Professional section */}
+      <Route path="Professional" component={Professional} />
       {/**to do add router to Services */}
       <Footer />
     </Flex>
   );
 }
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<Router><App /></Router>, rootElement);
 /** */
