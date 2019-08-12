@@ -267,8 +267,8 @@ img {
 
 /* line 163, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
 .feature_part .single_feature:hover .single_feature_part {
-  border: 1px solid #0065e1;
-  background-color: #0065e1;
+  border: 1px solid green;
+  background-color: green;
 }
 
 /* line 167, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_feature_part.scss */
