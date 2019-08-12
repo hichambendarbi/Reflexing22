@@ -2,7 +2,7 @@ import React from "react";
 import "../styles.css";
 
 
-const SC01 = () => {
+const Contact = () => {
   return (
     <section
       class="ftco-section contact-section ftco-no-pb"
@@ -116,4 +116,4 @@ const SC01 = () => {
   );
 };
 
-export default SC01;
+export default Contact;

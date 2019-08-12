@@ -8,6 +8,9 @@ import {
   MDBMask,
   MDBContainer
 } from "mdbreact";
+import {
+  NavLink
+} from "reactstrap";
 import "../../styles.css";
 
 const CarouselPage = () => {
@@ -35,7 +38,7 @@ const CarouselPage = () => {
                 Laboratoire Fes, RECUEIL ET ANALYSE D'ÉCHANTILLONS BIOLOGIQUES
               </h3>
               <p className="hh">Laboratoire de biologie medicale</p>
-              <button className="btnRdv">Rendez-vous</button>
+             <NavLink href="/Appointment"> <button className="btnRdv">Rendez-vous</button></NavLink>
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
