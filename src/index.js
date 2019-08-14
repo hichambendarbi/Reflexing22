@@ -9,14 +9,16 @@ import Footer from "./Layout/Footer";
 
 //import website pages
 import Home from "./Component/Home";
-import Patient from "./Component/Patient";
-import Professional from "./Component/Professional";
+import Patient from "./Component/Patient1";
+import Professional from "./Component/Professional1";
 import Contact from "./Component/Contact";
 /**
  * Website Modules
  */
 
+
 import Login from "./Login/src/login"
+
 
 /**
  * Redux Modules
@@ -32,13 +34,14 @@ import "./styles.css";
 const Store = createStore(RootReducer);
 
 function App() {
-  return (
+  return (  
     <Flex style={{ padding: "0", margin: "0px" }}>
+    
       <Header />
       {/**to do add router to home */}
       <Route exact path="/" component={Home} />
       {/**to do add router to Patient section */}
-      <Route path="/Patient" component={Patient} />
+      <Route path="/patient" component={Patient} />
       {/**to do add router to Professional section */}
       <Route path="/Professional" component={Professional} />
       {/**to do add router to Services */}
