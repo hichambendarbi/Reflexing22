@@ -17,6 +17,7 @@ import { ReactComponent as Connect } from "./ico/connect.svg";
 import { ReactComponent as RDV } from "./ico/appointment.svg";
 import { ReactComponent as PRD } from "./ico/blood-sample.svg";
 import { ReactComponent as Urgence } from "./ico/medical.svg";
+import { ReactComponent as Whatsapp } from "./ico/whatsapp.svg";
 //import of icons
 export {
   Login,
@@ -36,5 +37,6 @@ export {
   Connect,
   RDV,
   PRD,
-  Urgence
+  Urgence,
+  Whatsapp
 };

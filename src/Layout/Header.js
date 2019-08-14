@@ -51,9 +51,11 @@ const BoxNameLabo = styled.div`
   @media (max-width: 560px) {
     font-size: 15px;
     margin-right: 30px;
+    display: none;
   }
   @media (max-width: 400px) {
     margin-right: 0px;
+    display: none;
   }
   @media (max-width: 300px) {
     display: none;
@@ -82,10 +84,10 @@ const Header = () => (
     <Flex style={{ width: "100%" }}>
       <BoxHeader1>
         <Flex1 row>
-          <BoxNameLabo>Laboratoire Fes</BoxNameLabo>
+          <BoxNameLabo>Laboratoire Fes des Analyses Médicales</BoxNameLabo>
           <Box>
             <Tele height="25" width="40" fill="red" />
-            <TeleHide> +212 535-73-20-00</TeleHide>
+            <TeleHide> +212 637-52-17-01</TeleHide>
           </Box>
           <Box>
             <Location height="25" width="40" fill="red" />

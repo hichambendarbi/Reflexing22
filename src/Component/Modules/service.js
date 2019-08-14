@@ -21,7 +21,7 @@ const Emergency = () => (
     icon={<Urgence width="120px" height="70px" />}
     title={"Urgence 24/7j"}
     text={
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius sequi."
+      "Si Vous Avez des analyses Urgent. N'hesitez pas de Nous appeler sur +212 637 521-701"
     }
   />
 );
@@ -30,8 +30,7 @@ const Appointement = () => (
   <Card
     icon={<RDV width="120px" height="70px" />}
     title="Rendez-Vous"
-    text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-              quis, nemo explicabo cupiditate vero fugiat sit eius sequi."
+    text="Vous pouvez prendre un rendez-Vous 24h/7j en parlant avec Nous sur Whatsap +212 637 521-701."
   />
 );
 
@@ -39,8 +38,7 @@ const BloodCollectAtHome = () => (
   <Card
     icon={<PRD width="120px" height="70px" />}
     title="Prise de Sang a Domicile"
-    text="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-              quis, nemo explicabo cupiditate vero fugiat sit eius sequi."
+    text="Le laboratoire adopte un systeme de prelevent a domicile 24/24h 7/7j sur +212 637 521-701."
   />
 );
 
