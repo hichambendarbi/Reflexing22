@@ -8,10 +8,11 @@ import {
   MDBMask,
   MDBContainer
 } from "mdbreact";
-import {
-  NavLink
-} from "reactstrap";
+
+import {Whatsapp} from "../../img";
+
 import "../../styles.css";
+
 
 const CarouselPage = () => {
   return (
@@ -38,7 +39,8 @@ const CarouselPage = () => {
                 Laboratoire Fes, RECUEIL ET ANALYSE D'ÉCHANTILLONS BIOLOGIQUES
               </h3>
               <p className="hh">Laboratoire de biologie medicale</p>
-             <NavLink href="/Appointment"> <button className="btnRdv">Rendez-vous</button></NavLink>
+              <button className="btnRdv"><Whatsapp height= {"30px"} width={"30px"}/>+212 637 521-701</button>
+
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
@@ -55,7 +57,7 @@ const CarouselPage = () => {
                 Laboratoire Fes, RECUEIL ET ANALYSE D'ÉCHANTILLONS BIOLOGIQUES
               </h3>
               <p className="hh">Laboratoire de biologie medicale</p>
-              <button className="btnRdv">Rendez-vous</button>
+              <button className="btnRdv"><Whatsapp height= {"30px"} width={"30px"}/>+212 637 521-701</button>
             </MDBCarouselCaption>
           </MDBCarouselItem>
         </MDBCarouselInner>
