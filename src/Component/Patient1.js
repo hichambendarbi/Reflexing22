@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./ProfessionalStyle/style1.css";
 const Patient=()=>(
     <div>        
 		<section className="ftco-section">
@@ -15,15 +15,15 @@ const Patient=()=>(
 					<div className="row">
             <div className="col-md-12 nav-link-wrap">
 	            <div className="nav nav-pills d-flex text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-	              <a className="nav-link  active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><h5>AVANT VOTRE EXAMEN</h5></a>
+	              <a className="nav-link  active" id="v-pills-1-tab"  href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><h5>AVANT VOTRE EXAMEN</h5></a>
 
-	           <a className="nav-link " id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><h5>ACCUEIL L'ABORATOIRE</h5></a>
+	           <a className="nav-link " id="v-pills-2-tab"  href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><h5>ACCUEIL L'ABORATOIRE</h5></a>
 
-	              <a className="nav-link " id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><h5>VOS RESULTATS D'EXAMEN</h5></a>
+	              <a className="nav-link " id="v-pills-3-tab"  href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><h5>VOS RESULTATS D'EXAMEN</h5></a>
 
-	              <a className="nav-link " id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><h5>VOS D'OCUMENTS UTILES</h5></a>
+	              <a className="nav-link " id="v-pills-4-tab"  href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><h5>VOS D'OCUMENTS UTILES</h5></a>
 
-	              <a className="nav-link " id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><h5>URGENCES MEDICALES</h5></a>
+	              <a className="nav-link " id="v-pills-5-tab"  href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><h5>URGENCES MEDICALES</h5></a>
 
 	            </div>
 	          </div>

@@ -46,9 +46,7 @@ const Cards = ({ icon, title, text }) => (
 const OurEquipement = () => (
   <Cards
     title="Nos Equipements"
-    text="Darkness multiply rule Which from without life creature
-                                        blessed give moveth moveth seas make day which divided
-                                        our have."
+    text="Notre Groupe est engagé dans une démarche Qualité depuis sa création, en apportant un materiel de proximité et de haute performance."
     icon={<Equipment width="35px" height="35px" fill="green" />}
   />
 );
@@ -56,9 +54,7 @@ const OurEquipement = () => (
 const OurProfessionals = () => (
   <Cards
     title="Professionelles"
-    text="Darkness multiply rule Which from without life creature
-                                          blessed give moveth moveth seas make day which divided
-                                          our have."
+    text="Un espace medecins professionnels de santé assure la suivi des examens des patients avec un rapport service de haute qualite et performance."
     icon={<Profesionnel width="35px" height="35px" fill="green" />}
   />
 );
@@ -66,9 +62,7 @@ const OurProfessionals = () => (
 const OurReports = () => (
   <Cards
     title="Nos resultats"
-    text="Darkness multiply rule Which from without life creature
-                                blessed give moveth moveth seas make day which divided
-                                our have."
+    text="Un serveur des résultats de laboratoire Fes est toujours marche pour bien vos servir vos demandes des resultas en toute securite et rapidite."
     icon={<Resultat width="35px" height="35px" fill="green" />}
   />
 );
@@ -76,9 +70,7 @@ const OurReports = () => (
 const OurPartners = () => (
   <Cards
     title="Nos partenariats"
-    text="Darkness multiply rule Which from without life creature
-                              blessed give moveth moveth seas make day which divided
-                              our have."
+    text="Notre démarche developement, unique au sein du monde de sante, vise à faire des collaborations avec les professionnels de santé."
     icon={<Connect width="35px" height="35px" fill="green" />}
   />
 );

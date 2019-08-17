@@ -44,7 +44,7 @@ const Flex1 = styled.div`
   align-content: space-between;
 `;
 const BoxNameLabo = styled.div`
-  margin-right: 350px;
+  margin-right: 35px;
   @media (max-width: 1025px) {
     margin-right: 100px;
   }
